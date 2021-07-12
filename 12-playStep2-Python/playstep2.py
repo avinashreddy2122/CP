@@ -35,4 +35,45 @@
 
 def playstep2(hand, dice):
 	# your code goes here
-	pass
+	a=hand // 100
+	b= hand// 10
+	b=b%10
+	c=hand %10
+
+	lis = [a,b,c]
+	# if lis == set(lis):
+	# 	print("ello")
+	# print("hlind")
+	emplist = []
+	if a!=b!=c:
+		lis.sort(reverse = True)
+		# print(lis)
+		emplist.append(lis[0])
+		# print(emplist)
+		z = dice %10
+		emplist.append(z)
+		dice=dice//10
+		y=dice%10
+		dice = dice//10
+		emplist.append(y)
+
+		# print(emplist)
+		
+		emplist.sort(reverse=True)
+		# print(emplist)
+		num = emplist[0]*100 + emplist[1]*10 + emplist[2]
+		return (num, dice)
+	else:
+		if a==b or a==c or b==c :
+			t = dice %10
+			if a==b :
+				c=t
+			elif b==c :
+				a=t
+			else:
+				b=t
+		g = [a,b,c]
+		g.sort(reverse = True)	
+		num = g[0]*100 + g[1]*10 + g[2]
+		dice=dice//10
+		return (num, dice)
