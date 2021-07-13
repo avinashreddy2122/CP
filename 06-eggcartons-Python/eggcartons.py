@@ -6,4 +6,17 @@
 
 def fun_eggcartons(eggs):
 	# your code goes here
-	return 1
+	
+	carton = eggs/12
+	print(carton)
+	if eggs==0:
+		return 0
+	a= int(carton)
+	print(a)
+	if (carton > a):
+		a+=1
+		print(a)
+		return a
+	return a 
+# fun_eggcartons(22)
+	
