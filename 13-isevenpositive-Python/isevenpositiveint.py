@@ -6,4 +6,25 @@
 
 def isevenpositiveint(x):
 	# your code goes here
-	pass
+	# b = x.isalpha()
+	# print(b)
+	# if b == True :
+	# 	return False
+	if type(x)==int:
+
+		n=abs(x)
+		# print(n)
+		# if x==None:
+		# 	return False
+		if  x == n and n%2==0:
+			print("True")
+			return True
+		else: 
+			print("false")
+			return False
+	else: 
+		print("false")
+		return False
+	
+	
+isevenpositiveint([55])
