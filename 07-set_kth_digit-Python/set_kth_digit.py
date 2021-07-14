@@ -7,5 +7,29 @@
 
 
 def fun_set_kth_digit(n, k, d):
-		return 0
 
+	flag=False
+	if n<0:
+		n=-n
+		flag=True
+	cnt=0
+	res=0
+	while(n>0):
+		r=n%10
+		if cnt==k:
+			res += (d*(10**cnt))
+		else:
+			res=res+(r*(10**cnt))
+		cnt+=1
+		n=n//10
+
+	while cnt<=k:
+		if cnt==k:
+			res=res+(d*(10**cnt))
+		
+		cnt+=1
+	if flag:
+		return (-res)
+	else:
+		return res
+	
