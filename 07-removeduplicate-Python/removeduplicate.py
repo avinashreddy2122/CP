@@ -5,4 +5,9 @@
 
 def removeduplicate(text):
 	# Your code goes here
-	pass
+	String1= ""
+	for i in text:
+		if i not in String1:
+			String1+=i
+	return String1
+	
