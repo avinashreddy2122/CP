@@ -6,4 +6,13 @@
 
 def fun_circlesintersect(x1, y1, r1, x2, y2, r2):
 	# your code goes here
-	return False 
+	c1c2=((x1-x2)**2 + (y1-y2)**2)**0.5
+	print(c1c2)
+	c=r1+r2
+	print(c)
+	if int(c1c2) <= int(c):
+		print(True)
+		return True
+	print(False)
+	return False
+fun_circlesintersect(-10, 8, 30, 14, -24, 10)
