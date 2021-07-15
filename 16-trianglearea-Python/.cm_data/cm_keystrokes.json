@@ -1,0 +1,11 @@
+{
+    "trianglearea.py": [
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 08:55:51",
+            "keyStrokeInfo": "\r\ndef trianglearea(s1, s2, s3):\r\n\t# your code goes here\r\n\tpass\r\n",
+            "position": "6,1"
+        }
+    ]
+}
