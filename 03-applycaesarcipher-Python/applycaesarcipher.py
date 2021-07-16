@@ -15,12 +15,15 @@ def fun_applycaesarcipher(msg, shift):
 	for i in range(len(msg)):
 		char=msg[i]
 		# print(char)
+		if char.isalpha()== False:
+			result+=char
+			continue
 
 		if (char.isupper()):
-			result+=chr((ord(char)+shift-64)%26+65)
+			result+=chr((ord(char)+shift-65)%26+65)
 	# print(result)
 		else: 
-			result+=chr((ord(char)+shift-96)%26+97)
+			result+=chr((ord(char)+shift-97)%26+97)
 	print(result)
 	return result
 fun_applycaesarcipher("abcd", 3)
