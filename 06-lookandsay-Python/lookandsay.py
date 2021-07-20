@@ -11,4 +11,23 @@
 
 def lookandsay(a):
 	# Your code goes here
-	pass
+	x= []
+	if len(a) ==0:
+		return x 
+	cnt=1
+	value=-20000
+	for i in a:
+		if i!=value:
+			if value!=-20000:
+				x.append((cnt,value))
+				value =i
+				cnt=1
+			else:
+				value=i
+				cnt=1
+		else:
+			value=i
+			cnt+=1
+	x.append((cnt,value))
+	return x
+lookandsay([1, 1, 1])
