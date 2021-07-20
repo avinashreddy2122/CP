@@ -1679,6 +1679,90 @@
             "keyStrokeTimeStamp": "Mon Jul 19 2021 21:52:16",
             "keyStrokeInfo": "e",
             "position": "12,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:28:58",
+            "keyStrokeInfo": " ",
+            "position": "11,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:28:59",
+            "keyStrokeInfo": "o",
+            "position": "11,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:28:59",
+            "keyStrokeInfo": "r",
+            "position": "11,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:28:59",
+            "keyStrokeInfo": " ",
+            "position": "11,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:01",
+            "keyStrokeInfo": "m",
+            "position": "11,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:02",
+            "keyStrokeInfo": "2",
+            "position": "11,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:03",
+            "keyStrokeInfo": "%",
+            "position": "11,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:04",
+            "keyStrokeInfo": "m",
+            "position": "11,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:04",
+            "keyStrokeInfo": "1",
+            "position": "11,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:05",
+            "keyStrokeInfo": "=",
+            "position": "11,22"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:05",
+            "keyStrokeInfo": "=",
+            "position": "11,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:29:06",
+            "keyStrokeInfo": "0",
+            "position": "11,24"
         }
     ]
 }
