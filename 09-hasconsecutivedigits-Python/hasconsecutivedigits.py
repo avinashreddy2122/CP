@@ -4,4 +4,15 @@
 
 def hasconsecutivedigits(n):
 	# your code goes here
-	pass
+	n=abs(n)
+	prev =-1
+	while(n>0):
+		newdigit = n%10
+		if newdigit == prev :
+			print(newdigit,prev)
+			return True
+		prev = newdigit
+
+		n=n//10	
+	return False
+hasconsecutivedigits(26011)
