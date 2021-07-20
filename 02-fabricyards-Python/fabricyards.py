@@ -14,8 +14,27 @@
 
 def fabricyards(inches):
 	# Your code goes here...
-	return 1
+	yards = inches/36
+	a=int(yards)
+	if yards>a:
+		a=a+1
+		return a
+	return a
 
 def fabricexcess(inches):
 	# Your code goes here...
-	return 1
+	if inches==0:
+		return 0
+
+	elif inches<=36:
+		fabricexcess = 36-inches
+		return fabricexcess
+	if inches>36:
+		yards=inches/36
+	x=int(yards)
+	if yards>x:
+		x+=1
+	a=x*36
+	b=a-inches
+
+	return b
