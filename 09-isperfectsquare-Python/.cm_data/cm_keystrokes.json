@@ -1,0 +1,11 @@
+{
+    "isperfectsquare.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 21:09:11",
+            "keyStrokeInfo": "\tif n<0:\r\n\t\treturn False\r\n\ta= math.sqrt(n)\r\n\tprint(int(a))\r\n\tif int(a) **2 ==n:\r\n\t\treturn True\r\n\treturn False\r\n\r\nisperfectsquare()\r\n",
+            "position": "8,1"
+        }
+    ]
+}
