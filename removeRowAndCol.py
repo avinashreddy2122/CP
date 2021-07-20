@@ -25,11 +25,17 @@ def removeRowAndCol(L, row, col):
     # Your code goes here...
     
     if (len(L)==0 or len(L)==1 or row==0 or col ==0):
+        print("can't remove row and column")
         return "can't remove row and column"
     else:
         for i in L:
             del i[col]
         L.pop(row)
+        print(L)
         return L
-removeRowAndCol()
+
 # Write your own test cases.
+
+assert (removeRowAndCol([[ 2, 3, 4, 5],[ 8, 7, 6, 5], [ 0, 1, 2, 3]], 1,2 ) == ([ [ 2, 3, 5],[ 0, 1, 3] ]))
+
+assert (removeRowAndCol( [[]],1,2 )) == ("can't remove row and column")
