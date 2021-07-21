@@ -16,4 +16,24 @@
 
 
 def nth_happy_number(n):
-	return 0
+	c=0
+	latest = 0
+	num = 1
+	while c!=n:
+		# print (n)
+		sum=0
+		num1=num
+		# print(num1)
+		while sum!=1 :
+			sum = 0
+			while num1 !=0:
+				rem = num1%10
+				sum+=(rem*rem)
+				num1//=10
+			num1 = sum
+		if sum==1:
+			c+=1
+			latest = num
+		num=num+1
+	return latest
+nth_happy_number(13)
