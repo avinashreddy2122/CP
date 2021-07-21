@@ -9,7 +9,7 @@
 import math
 def largestperfectsquare(n):
 	# your code goes here
-	a=math.floor(math.sqrt(n))+1
+	a=math.floor(math.sqrt(n))
 	print(a*a)
 	return a*a
 largestperfectsquare(36)	
