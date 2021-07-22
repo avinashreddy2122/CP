@@ -24,7 +24,7 @@ def nth_happy_number(n):
 		sum=0
 		num1=num
 		# print(num1)
-		while sum!=1 :
+		while sum!=1 and sum!=4:
 			sum = 0
 			while num1 !=0:
 				rem = num1%10
