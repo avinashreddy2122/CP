@@ -19,4 +19,14 @@
 
 def ishappynumber(n):
 	# your code goes here
-	pass
+	rem=sum=0
+	while (n>0):
+		rem=n%10
+		print("rem",rem)
+		sum=sum+(rem*rem)
+		print("sum",sum)
+		n=n//10
+		print("n",n)
+	return sum
+ishappynumber(13)
+	
