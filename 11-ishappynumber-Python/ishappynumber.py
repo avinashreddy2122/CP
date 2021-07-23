@@ -16,17 +16,27 @@
 # assert(ishappynumber(98) == False)
 # assert(ishappynumber(404) == True)
 # assert(ishappynumber(405) == False)
-
+def digitSquares(n):
+	sum=0
+	while (n>0):
+		
+		sum=sum+(n%10)**2	
+		n=n//10
+	return sum
 def ishappynumber(n):
 	# your code goes here
-	rem=sum=0
-	while (n>0):
-		rem=n%10
-		print("rem",rem)
-		sum=sum+(rem*rem)
-		print("sum",sum)
-		n=n//10
-		print("n",n)
-	return sum
-ishappynumber(13)
-	
+	if n<=0:
+		return False
+
+	while(1):
+		if n==1:
+			return True
+		elif n==4:
+			return False
+		else:
+			n=digitSquares(n)
+	return False
+
+
+
+print(ishappynumber(-7))
