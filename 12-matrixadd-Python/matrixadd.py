@@ -17,16 +17,10 @@
 
 def matrixadd(L, M):
 	# Your code goes here
-	
-	a= [[0 for x in range(len(L))] for y in range(len(M))] 
-	print(a)
-	if len(L[0]) != len(M):
+	if len(L[0])==len(M[0]) == 1:
+		return [[L[0][0]+M[0][0]]]
+	elif (len(L)!= len(M) or len(L[0]) != len(M[0])  or len(L[1])!= len(M[1])) :
 		return None
-	for i in range(len(L)):
-		for j in range(len(L[0])):
-			a[i][j] = L[i][j] + M[i][j]
-	for k in a:
-		return a
-# print(matrixadd([[1,  2,  3],[4,  5,  6]], [[21, 22, 23], [24, 25, 26]]))
-# print(matrixadd([[1,  2,  3],[4,  5,  6], [7, 8, 9]], [[1,  2,  3],[4,  5,  6], [7, 8, 9]]))
-print(matrixadd([[1, 2]], [[10,5]]))
+
+	a=[[L[i][j]+M[i][j] for j in range(len(L[0]))]for i in range(len(L))]
+	return a
