@@ -12,25 +12,11 @@ def isrotation(x, y):
 	
 	if len(x)!=len(y) or len(x)==0 or len(y)==0:
 		return False
-	# a=sorted(x,reversed =True)
-	# print(a)
-	# if a==y :
-	# 	return True
-
-	s=0
-	while(x[0]!= y[s]):
-		s+=1
-	# 	# print(s)
-	# # print(y)
-	y=y[s:]+y[:s]
-	# # print(y[s:])
-	# # print(y[:s])
-	# # print(y)
-	s=0
-	for i in x:
-		if i!=y[s]:
-			return False
-		s+=1
-	return True 
 	
-print(isrotation(12345,54321))
+	for i in range(len(x)):
+		x=x[1:]+x[0]
+		print(x)
+		if x==y:
+			return True
+	return False
+print(isrotation(54321,12345))
