@@ -10,14 +10,28 @@
 
 
 def fun_getaverage(s): 
+	# sum=0
+	# cnt=0
+	# for i in s:
+	# 	if i.isdigit():
+	# 		print(i)
+	# 		sum+=int(i)
+	# 		# print (sum)
+	# 		cnt+=1
+	# return sum/cnt
+	li=list(s.split(","))
+	# print(li)
 	sum=0
 	cnt=0
-	for i in s:
+	for i in li:
+		print(i)
 		if i.isdigit():
 			print(i)
 			sum+=int(i)
+			
 			# print (sum)
 			cnt+=1
 	return sum/cnt
-print(fun_getaverage("a,12,c,14,6,0"))	
+	
+print(fun_getaverage("a,b,c,2,3"))	
 
