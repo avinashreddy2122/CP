@@ -28,10 +28,10 @@ def fun_getaverage(s):
 		if i.isdigit():
 			print(i)
 			sum+=int(i)
-			
-			# print (sum)
 			cnt+=1
+	if cnt==0:
+		return 0.0
 	return sum/cnt
 	
-print(fun_getaverage("a,b,c,2,3"))	
+print(fun_getaverage("a,b,c"))	
 
