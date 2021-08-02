@@ -6,5 +6,19 @@
 
 
 def fun_carrylessadd(x, y):
-	return 0
+	position=0
+	value=0
+	sum=0
+	while(True):
+		sum=(x%10)+(y%10)
+		if(sum>9):
+			sum=sum%10
+		value=value+sum*(10**position)
+		position+=1
+		x=x//10
+		y=y//10
+		if(x==0 and y==0):
+			break
+	return value
+
 
