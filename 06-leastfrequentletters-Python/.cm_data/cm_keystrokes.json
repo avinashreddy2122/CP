@@ -1,0 +1,67 @@
+{
+    "leastfrequentletters.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:03:47",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:03:47",
+            "keyStrokeInfo": "",
+            "position": "12,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:03:47",
+            "keyStrokeInfo": "",
+            "position": "12,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:03:47",
+            "keyStrokeInfo": "",
+            "position": "12,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:03:48",
+            "keyStrokeInfo": "s=s.lower()\r\n    cnt=0\r\n    n=\"\"\r\n    for i in s:\r\n        for j in s:\r\n            if(i==j):\r\n                cnt=cnt+1\r\n        if (cnt==1):\r\n            n=n+i\r\n        cnt=0\r\n    st=\"\"\r\n    for i in n:\r\n        if(i.isalpha()):\r\n            st=st+i\r\n    if(len(s)==0):\r\n        return\" \"\r\n    else:\r\n        return''.join(sorted(st)",
+            "position": "12,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:03:50",
+            "keyStrokeInfo": ")",
+            "position": "29,33"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:04:17",
+            "keyStrokeInfo": "",
+            "position": "29,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:04:18",
+            "keyStrokeInfo": "\t",
+            "position": "29,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 02 2021 18:06:20",
+            "keyStrokeInfo": "",
+            "position": "27,10"
+        }
+    ]
+}
