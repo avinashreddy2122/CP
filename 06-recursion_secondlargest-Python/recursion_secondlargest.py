@@ -12,7 +12,17 @@
 # assert(recursion_secondlargest([ ]) == None)
 # Again, you do not need to sort the list. We didn't sort it in our sample solution. We just tracked the two largest 
 # values as we recursively traversed the list. Also, you may not use loops/iteration in this problem
-
+def secondLargest(n,L):
+	a=max(L)
+	if L.count(a)>=2:
+		return a
+	if n==1:
+		return a
+	else:
+		return secondLargest(n-1,[x for x in L if x!=a])
 def recursion_secondlargest(L):
 	# Your code goes here
-	pass
+	if len(L)<=1:
+		return None
+	else:
+		return secondLargest(2,L)
