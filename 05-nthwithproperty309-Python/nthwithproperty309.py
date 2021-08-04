@@ -6,4 +6,22 @@
 
 def nthwithproperty309(n):
 	# Your code goes here
-	pass
+	a=-1
+	b=0
+	while a<n:
+		b=b+1
+		if withproperty(b):
+			a=a+1
+	return b
+
+def withproperty(n):
+	a= n*n*n*n*n
+	b=str(a)
+	c='0123456789'
+	for i in c:
+		if i in b:
+			continue
+		else:
+			return False
+
+	return True
