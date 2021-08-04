@@ -1,0 +1,263 @@
+{
+    "nthcircularprime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 37,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:33:57",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if (n < 2):\r\n        return False\r\n    for factor in range(2,n):\r\n        if (n % factor == 0):\r\n            return False\r\n    return True\r\ndef digitCount(n):\r\n    count=0\r\n    while(n>0):\r\n        count=count+1\r\n        n=n//10\r\n    return count\r\ndef rotate(x):\r\n    count=digitCount(x)\r\n    sum=x%10*10**(count-1)+x//10\r\n    #print(sum)\r\n    return sum\r\n\r\ndef isCircular(n):\r\n    len=digitCount(n)\r\n    #print(n)\r\n    #print(len)\r\n    if(len==1):\r\n        return True\r\n    else:\r\n        cnt = 0\r\n        #print(\"else\")\r\n        while cnt < len:\r\n            if(not isPrime(n)):\r\n                return False\r\n            n=rotate(n)\r\n            #print(n)\r\n            cnt = cnt+1\r\n            if cnt == len:\r\n                return True\r\n    return False\r\n",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:04",
+            "keyStrokeInfo": "",
+            "position": "43,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:06",
+            "keyStrokeInfo": "\t",
+            "position": "43,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:08",
+            "keyStrokeInfo": "",
+            "position": "43,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:12",
+            "keyStrokeInfo": "\t",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:13",
+            "keyStrokeInfo": "\t",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:15",
+            "keyStrokeInfo": "\t",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:16",
+            "keyStrokeInfo": "\t",
+            "position": "11,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:17",
+            "keyStrokeInfo": "\t",
+            "position": "12,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:19",
+            "keyStrokeInfo": "\t",
+            "position": "13,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:21",
+            "keyStrokeInfo": "\t",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:23",
+            "keyStrokeInfo": "\t",
+            "position": "16,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:23",
+            "keyStrokeInfo": "\t",
+            "position": "17,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:25",
+            "keyStrokeInfo": "\t",
+            "position": "18,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:27",
+            "keyStrokeInfo": "\t",
+            "position": "19,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:30",
+            "keyStrokeInfo": "\t",
+            "position": "21,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:31",
+            "keyStrokeInfo": "\t",
+            "position": "22,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:34",
+            "keyStrokeInfo": "\t",
+            "position": "24,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:37",
+            "keyStrokeInfo": "\t",
+            "position": "27,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:40",
+            "keyStrokeInfo": "\t",
+            "position": "30,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:41",
+            "keyStrokeInfo": "\t",
+            "position": "31,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:43",
+            "keyStrokeInfo": "\t",
+            "position": "32,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:44",
+            "keyStrokeInfo": "\t",
+            "position": "33,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:34:49",
+            "keyStrokeInfo": "\t",
+            "position": "43,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:16",
+            "keyStrokeInfo": "",
+            "position": "47,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:16",
+            "keyStrokeInfo": "",
+            "position": "47,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:16",
+            "keyStrokeInfo": "",
+            "position": "47,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:16",
+            "keyStrokeInfo": "",
+            "position": "47,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:17",
+            "keyStrokeInfo": " num=2\r\n    count=0\r\n    #result=((2**n - 1)**2 - 2)\r\n    while(count<x):\r\n        \r\n        if(isPrime(num) and isCircular(num)):\r\n            count+=1\r\n        num+=1\r\n    return num-1\r\n",
+            "position": "47,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:23",
+            "keyStrokeInfo": "",
+            "position": "47,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:27",
+            "keyStrokeInfo": "",
+            "position": "51,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:28",
+            "keyStrokeInfo": "",
+            "position": "51,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:28",
+            "keyStrokeInfo": "",
+            "position": "50,20"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:33",
+            "keyStrokeInfo": "\t\t",
+            "position": "54,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:35",
+            "keyStrokeInfo": "\t",
+            "position": "54,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:52",
+            "keyStrokeInfo": "",
+            "position": "50,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 04 2021 22:35:53",
+            "keyStrokeInfo": "n",
+            "position": "50,14"
+        }
+    ]
+}
