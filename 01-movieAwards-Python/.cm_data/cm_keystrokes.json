@@ -1,0 +1,39 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:54:49",
+            "keyStrokeInfo": "",
+            "position": "24,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:54:50",
+            "keyStrokeInfo": "",
+            "position": "24,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:54:50",
+            "keyStrokeInfo": "",
+            "position": "24,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:54:50",
+            "keyStrokeInfo": "",
+            "position": "24,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:54:51",
+            "keyStrokeInfo": "res = {}\r\n    for award, movie in oscarResults:\r\n        count = res.get(movie, 0)+1\r\n        res[movie] = count\r\n    return res",
+            "position": "24,5"
+        }
+    ]
+}
