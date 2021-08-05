@@ -1,0 +1,53 @@
+{
+    "recursion_powersof3ton.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:22",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:22",
+            "keyStrokeInfo": "",
+            "position": "8,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:23",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:23",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:24",
+            "keyStrokeInfo": "if newL == None:\r\n\t\tnewL = []\r\n\tif nextPower == 0:\r\n\t\tnewL.append(1)\r\n\tif n < 1:\r\n\t\treturn None\r\n\telse:\r\n\t\t#every time we move on our power increments by 1\r\n\t\tnextPower += 1\r\n\t\tnextNumber = 3**nextPower\r\n\t\t#if next number is greater than our number then we stop looping\r\n\t\tif(nextNumber > n):\r\n\t\t\treturn newL\r\n\t\tnewL.append(nextNumber)\r\n\t\treturn recursion_powersof3ton(n, nextPower, newL)",
+            "position": "8,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:40",
+            "keyStrokeInfo": " nextPower=0, newL = None",
+            "position": "6,29"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:52:43",
+            "keyStrokeInfo": ",",
+            "position": "6,30"
+        }
+    ]
+}
