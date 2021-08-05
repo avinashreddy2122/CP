@@ -1,0 +1,46 @@
+{
+    "friendsOfFriends.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:47:48",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "29,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:47:48",
+            "keyStrokeInfo": "",
+            "position": "30,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:47:49",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:47:51",
+            "keyStrokeInfo": "def mutualfriend(d,i):\r\n    m=[]\r\n    for j in d[i]:\r\n        if j in d:\r\n            for k in d[j]:\r\n                if k not in m and  k not in d[i] and k not in i:\r\n                        m.append(k)\r\n                \r\n    return m\r\ndef friendsOfFriends(d):\r\n    # your code goes here\r\n    a={}\r\n    for i in d:\r\n        if i not in a:\r\n            a[i]=mutualfriend(d,i)\r\n    return a\r\nd = friendsOfFriends(readDict())\r\n\r\nfor i in sorted(d.keys()):\r\n    print(i, sorted(d[i]))\r\n",
+            "position": "31,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:48:42",
+            "keyStrokeInfo": "def readDict():\r\n    a = {}\r\n    n = int(input())\r\n    for i in range(n):\r\n        s = input().split()\r\n        a[s[0]] = set(s[1:])\r\n    return a\r\n",
+            "position": "30,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 11:48:51",
+            "keyStrokeInfo": "",
+            "position": "27,1"
+        }
+    ]
+}
