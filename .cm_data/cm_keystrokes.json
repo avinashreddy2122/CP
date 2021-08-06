@@ -1,0 +1,81 @@
+{
+    "topScorer.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:27",
+            "keyStrokeInfo": "",
+            "position": "19,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:28",
+            "keyStrokeInfo": "",
+            "position": "19,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:30",
+            "keyStrokeInfo": " if data == '':\r\n        return None\r\n    return getbestplayer(data)\r\n\r\ndef getbestplayer(data):\r\n    name = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\r\n    score = 0\r\n    playername = ''\r\n    for line in data.splitlines():\r\n        currscore = 0\r\n        currname = ''\r\n        for c in line.split(','):\r\n            if c[0] in name or c[0] in name.lower():\r\n                currname = c\r\n            else:\r\n                currscore+=int(c)\r\n            if currscore>score:\r\n                score = currscore\r\n                playername = currname\r\n            elif currscore == score:\r\n                if currname not in playername:\r\n                    playername+=\",\"+currname\r\n    return playername",
+            "position": "19,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:35:40",
+            "keyStrokeInfo": "",
+            "position": "19,5"
+        }
+    ]
+}
