@@ -1,0 +1,46 @@
+{
+    "LatinSquare.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:33:49",
+            "keyStrokeInfo": "",
+            "position": "12,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:33:49",
+            "keyStrokeInfo": "",
+            "position": "12,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:33:50",
+            "keyStrokeInfo": "",
+            "position": "12,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:33:50",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 57,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:33:51",
+            "keyStrokeInfo": "  N = len(lst)\r\n\r\n    rows = []\r\n    for i in range(N):\r\n        rows.append(set([]))\r\n\r\n    cols = []\r\n    for i in range(N):\r\n        cols.append(set([]))\r\n\r\n    invalid = 0\r\n\r\n    for i in range(N):\r\n        for j in range(N):\r\n            rows[i].add(lst[i][j])\r\n            cols[j].add(lst[i][j])\r\n\r\n            if (lst[i][j] > N or lst[i][j] <= 0):\r\n                invalid += 1\r\n\r\n    numrows = 0\r\n\r\n    numcols = 0\r\n\r\n    for i in range(N):\r\n        if (len(rows[i]) != N):\r\n            numrows += 1\r\n\r\n        if (len(cols[i]) != N):\r\n            numcols += 1\r\n\r\n    if (numcols == 0 and numrows == 0 and invalid == 0):\r\n        return True\r\n    else:\r\n        return False\r\n\r\n\r\nlst = [[1, 2, 3],\r\n       [3, 1, 2],\r\n       [2, 3, 1]]\r\n\r\nassert(isLatinSquare(lst) == True)\r\n\r\nlst1 = [[1, 2, 3, 4],\r\n        [4, 1, 2, 3],\r\n        [3, 4, 1, 2],\r\n        [2, 3, 4, 1]]\r\n\r\nassert(isLatinSquare(lst1) == True)\r\n\r\nlst2 = [[1, 2, 3, 4],\r\n        [2, 1, 3, 4],\r\n        [3, 4, 2, 1],\r\n        [4, 1, 3, 2]]\r\n\r\nassert(isLatinSquare(lst2) == False)\r\nprint(\"All test cases passed\")",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 06 2021 09:34:01",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        }
+    ]
+}
